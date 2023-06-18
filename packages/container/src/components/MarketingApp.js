@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { mount } from "marketing/MarketingApp";
 
 export default () => {
-  console.lo("marketing rendered");
+  console.log("marketing rendered!");
   const ref = useRef(null);
   useEffect(() => {
     mount(ref.current);
